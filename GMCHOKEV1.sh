@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 # Original script by fornesia, rzengineer and fawzya
-# Mod by Bustami Arifin
-# ==================================================
+# จัดทำโดย nipon kaewtes 
+======================================
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
