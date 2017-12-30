@@ -130,27 +130,27 @@ service webmin restart
 cd /usr/bin
 wget -O 1 "https://raw.githubusercontent.com/gmchoke/A/master/menu.sh"
 wget -O 2 "http://vira.cf/usernew.sh"
-wget -O trial "http://vira.cf/trial.sh"
-wget -O hapus "http://vira.cf/hapus.sh"
-wget -O cek "http://vira.cf/user-login.sh"
-wget -O member "http://vira.cf/user-list.sh"
-wget -O resvis "http://vira.cf/resvis.sh"
-wget -O speedtest "http://vira.cf/speedtest_cli.py"
-wget -O info "http://vira.cf/info.sh"
-wget -O about "http://vira.cf/about.sh"
+wget -O 3 "http://vira.cf/trial.sh"
+wget -O 4 "http://vira.cf/hapus.sh"
+wget -O 5 "http://vira.cf/user-login.sh"
+wget -O 6 "http://vira.cf/user-list.sh"
+wget -O 7 "http://vira.cf/resvis.sh"
+wget -O 8 "http://vira.cf/speedtest_cli.py"
+wget -O 9 "http://vira.cf/info.sh"
+wget -O 10 "http://vira.cf/about.sh"
 
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
 chmod +x 1
 chmod +x 2
-chmod +x trial
-chmod +x hapus
-chmod +x cek
-chmod +x member
-chmod +x resvis
-chmod +x speedtest
-chmod +x info
-chmod +x about
+chmod +x 3
+chmod +x 4
+chmod +x 5
+chmod +x 6
+chmod +x 7
+chmod +x 8
+chmod +x 9
+chmod +x 10
 
 # finishing
 cd
@@ -181,26 +181,26 @@ echo "nginx    : 81"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Script"  | tee -a log-install.txt
 echo "------"  | tee -a log-install.txt
-echo "menu (Menampilkan daftar perintah yang tersedia)"  | tee -a log-install.txt
-echo "usernew (Membuat Akun SSH)"  | tee -a log-install.txt
-echo "trial (Membuat Akun Trial)"  | tee -a log-install.txt
-echo "hapus (Menghapus Akun SSH)"  | tee -a log-install.txt
-echo "cek (Cek User Login)"  | tee -a log-install.txt
-echo "member (Cek Member SSH)"  | tee -a log-install.txt
-echo "resvis (Restart Service dropbear, webmin, squid3, openvpn dan ssh)"  | tee -a log-install.txt
-echo "reboot (Reboot VPS)"  | tee -a log-install.txt
-echo "speedtest (Speedtest VPS)"  | tee -a log-install.txt
-echo "info (Menampilkan Informasi Sistem)"  | tee -a log-install.txt
-echo "about (Informasi tentang script auto install)"  | tee -a log-install.txt
+echo "1.  คือ รายการ มีดังนี้นะครับพี่ๆ"  | tee -a log-install.txt
+echo "2.  คือ สร้างบัญชีใช้งาน SSH & OPEN VPN"  | tee -a log-install.txt
+echo "3.  คือ สร้างบัญชีทดลอง SSH & OPEN VPN"  | tee -a log-install.txt
+echo "4.  คือ ลบชื่อผู้ใช้งาน SSH & OPEN VPM"  | tee -a log-install.txt
+echo "5.  คือ แสดงรายชื่อออนไลน์ทั้งหมด"  | tee -a log-install.txt
+echo "6.  คือ แสดงรายชื่อทั้งหมด "  | tee -a log-install.txt
+echo "7.  คือ รีสตาร์ระบบทุกระบบ "  | tee -a log-install.txt
+echo "8.  คือ รีบูท VPS "  | tee -a log-install.txt
+echo "9.  คือ ทดสอบความเร็วสปีดของ VPS "  | tee -a log-install.txt
+echo "10. คือ ดูการใช้ RAM ของระบบเซิร์ฟเวอร์ "  | tee -a log-install.txt
+echo "11. คือ ดูรายละเอียดการติดตั้งของระบบ "  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Fitur lain"  | tee -a log-install.txt
 echo "----------"  | tee -a log-install.txt
 echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
 echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
-echo "IPv6     : [off]"  | tee -a log-install.txt
+echo "IPv6     : [ปิด]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "Original Script by Fornesia, Rzengineer & Fawzya"  | tee -a log-install.txt
-echo "Modified by Bustami Arifin"  | tee -a log-install.txt
+echo "Original Script by GM, GM & CHOKE"  | tee -a log-install.txt
+echo "สร้างโดย GM CHOKE"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Log Instalasi --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
