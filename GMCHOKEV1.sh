@@ -181,17 +181,17 @@ echo "nginx    : 81"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Script"  | tee -a log-install.txt
 echo "------"  | tee -a log-install.txt
-echo "1.  คือ รายการ มีดังนี้นะครับพี่ๆ"  | tee -a log-install.txt
-echo "2.  คือ สร้างบัญชีใช้งาน SSH & OPEN VPN"  | tee -a log-install.txt
-echo "3.  คือ สร้างบัญชีทดลอง SSH & OPEN VPN"  | tee -a log-install.txt
-echo "4.  คือ ลบชื่อผู้ใช้งาน SSH & OPEN VPM"  | tee -a log-install.txt
-echo "5.  คือ แสดงรายชื่อออนไลน์ทั้งหมด"  | tee -a log-install.txt
-echo "6.  คือ แสดงรายชื่อทั้งหมด "  | tee -a log-install.txt
-echo "7.  คือ รีสตาร์ระบบทุกระบบ "  | tee -a log-install.txt
-echo "8.  คือ รีบูท VPS "  | tee -a log-install.txt
-echo "9.  คือ ทดสอบความเร็วสปีดของ VPS "  | tee -a log-install.txt
-echo "10. คือ ดูการใช้ RAM ของระบบเซิร์ฟเวอร์ "  | tee -a log-install.txt
-echo "11. คือ ดูรายละเอียดการติดตั้งของระบบ "  | tee -a log-install.txt
+echo "1  (รายการมีดังนี้นะครับพี่ๆ)"  | tee -a log-install.txt
+echo "2  (สร้างบัญชีใช้งาน SSH & OPEN VPN)"  | tee -a log-install.txt
+echo "3  (สร้างบัญชีทดลอง SSH & OPEN VPN)"  | tee -a log-install.txt
+echo "4  (ลบชื่อผู้ใช้งาน SSH & OPEN VPM)"  | tee -a log-install.txt
+echo "5  (แก้ไขรายชื่อและวันเวลาใช้งานและเปลี่ยนรหัส)"  | tee -a log-install.txt
+echo "6  (แสดงรายชื่อทั้งหมด)"  | tee -a log-install.txt
+echo "7  (รีสตาร์ระบบทุกระบบ)"  | tee -a log-install.txt
+echo "8  (รีบูท VPS )"  | tee -a log-install.txt
+echo "9  (ทดสอบความเร็วสปีดของ VPS )"  | tee -a log-install.txt
+echo "10 (ดูการใช้ RAM ของระบบเซิร์ฟเวอร์)"  | tee -a log-install.txt
+echo "11 (ดูรายละเอียดการติดตั้งของระบบ)" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Fitur lain"  | tee -a log-install.txt
 echo "----------"  | tee -a log-install.txt
