@@ -129,7 +129,7 @@ service webmin restart
 # download script
 cd /usr/bin
 wget -O 1 "https://raw.githubusercontent.com/gmchoke/A/master/menu.sh"
-wget -O 2 "http://vira.cf/usernew.sh"
+wget -O 2 "https://raw.githubusercontent.com/gmchoke/A/master/usernew.sh"
 wget -O 3 "http://vira.cf/trial.sh"
 wget -O 4 "http://vira.cf/hapus.sh"
 wget -O 5 "http://vira.cf/user-login.sh"
