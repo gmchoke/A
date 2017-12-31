@@ -130,15 +130,19 @@ service webmin restart
 cd /usr/bin
 wget -O 1 "https://raw.githubusercontent.com/gmchoke/A/master/menu.sh"
 wget -O 2 "https://raw.githubusercontent.com/gmchoke/A/master/usernew.sh"
-wget -O 3 "http://vira.cf/trial.sh"
-wget -O 4 "http://vira.cf/hapus.sh"
-wget -O 5 "http://vira.cf/user-login.sh"
-wget -O 6 "http://vira.cf/user-list.sh"
-wget -O 7 "http://vira.cf/resvis.sh"
-wget -O 8 "http://vira.cf/speedtest_cli.py"
-wget -O 9 "http://vira.cf/info.sh"
-wget -O 10 "http://vira.cf/about.sh"
-wget -O 11 "https://raw.githubusercontent.com/gmchoke/A/master/viewuser.sh"
+wget -O 3 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/test.sh"
+wget -O 4 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/delet.sh"
+wget -O 5 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/deletuserxp.sh"
+wget -O 6 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/viewuser.sh"
+wget -O 7 "http://vira.cf/user-list.sh"
+wget -O 8 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/lock.sh"
+wget -O 9 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/unlock.sh"
+wget -O 10 "http://vira.cf/resvis.sh"
+wget -O 11 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/TimeReboot.sh"
+wget -O 12 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/speedtest.py"
+wget -O 13 "http://vira.cf/info.sh"
+wget -O 14 ""
+wget -O 15 ""
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
 chmod +x 1
@@ -152,7 +156,10 @@ chmod +x 8
 chmod +x 9
 chmod +x 10
 chmod +x 11
-
+chmod +x 12
+chmod +x 13
+chmod +x 14
+chmod +x 15
 # finishing
 cd
 chown -R www-data:www-data /home/vps/public_html
