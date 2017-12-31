@@ -138,7 +138,7 @@ wget -O 7 "http://vira.cf/resvis.sh"
 wget -O 8 "http://vira.cf/speedtest_cli.py"
 wget -O 9 "http://vira.cf/info.sh"
 wget -O 10 "http://vira.cf/about.sh"
-
+wget -O 11 "https://raw.githubusercontent.com/gmchoke/A/master/viewuser.sh"
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
 chmod +x 1
@@ -151,6 +151,7 @@ chmod +x 7
 chmod +x 8
 chmod +x 9
 chmod +x 10
+chmod +x 11
 
 # finishing
 cd
@@ -191,6 +192,7 @@ echo "7     (รีสตาร์ระบบทุกระบบ)"  | tee -a 
 echo "8     (รีบูท VPS )"  | tee -a log-install.txt
 echo "9     (ทดสอบความเร็วสปีดของ VPS )"  | tee -a log-install.txt
 echo "10    (ดูการใช้ RAM ของระบบเซิร์ฟเวอร์)"  | tee -a log-install.txt
+echo "11    (แสดงรายชื่อออนไลน์ทั้งหมด) "  | tee -a log-install.txt
 echo "about (ดูรายละเอียดการติดตั้งของระบบ)" | tee -a log-install.txt
 echo "exit  (ออกจากการใช้งาน)"  | tee -a log-install.txt
 echo "Fitur lain"  | tee -a log-install.txt
