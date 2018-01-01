@@ -200,9 +200,9 @@ echo "8     (แบนรายชื่อ )"  | tee -a log-install.txt
 echo "9     (ปลดแบนรายชื่อ)"  | tee -a log-install.txt
 echo "10    (รีบูททั้งหมด)"  | tee -a log-install.txt
 echo "11    (ตั้งเวลารีบูท vps) "  | tee -a log-install.txt
-echo "12    (ทดสอบสปีด)
-echo "13    (ดูการใช้ Ram เซิร์ฟเวอร์)
-echo "14    (แก้ไขชื่อและรหัสผ่าน)
+echo "12    (ทดสอบสปีด)" | tee -a log-install.txt
+echo "13    (ดูการใช้ Ram เซิร์ฟเวอร์)"| tee -a log-install.txt
+echo "14    (แก้ไขชื่อและรหัสผ่าน)"| tee -a log-install.txt
 echo "about (ดูรายละเอียดการติดตั้งของระบบ)" | tee -a log-install.txt
 echo "exit  (ออกจากการใช้งาน)"  | tee -a log-install.txt
 echo "Fitur lain"  | tee -a log-install.txt
