@@ -142,6 +142,7 @@ wget -O 11 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/TimeReboot
 wget -O 12 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/speedtest.py"
 wget -O 13 "http://vira.cf/info.sh"
 wget -O 14 "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/rename.sh"
+wget -O 15 "https://raw.githubusercontent.com/gmchoke/A/master/bandwidth.sh"
 
 echo "0 0 * * * root /sbin/reboot" > /etc/cron.d/reboot
 
@@ -159,6 +160,7 @@ chmod +x 11
 chmod +x 12
 chmod +x 13
 chmod +x 14
+chmod +x 15
 
 # finishing
 cd
@@ -203,12 +205,13 @@ echo "11    (ตั้งเวลารีบูท vps) "  | tee -a log-instal
 echo "12    (ทดสอบสปีด)" | tee -a log-install.txt
 echo "13    (ดูการใช้ Ram เซิร์ฟเวอร์)"| tee -a log-install.txt
 echo "14    (แก้ไขชื่อและรหัสผ่าน)"| tee -a log-install.txt
+echo "15    (เช็ค bandwidth ที่ใช้ไป)" | tee -a log-install.txt
 echo "about (ดูรายละเอียดการติดตั้งของระบบ)" | tee -a log-install.txt
 echo "exit  (ออกจากการใช้งาน)"  | tee -a log-install.txt
 echo "Fitur lain"  | tee -a log-install.txt
 echo "----------"  | tee -a log-install.txt
 echo "Webmin   : http://$MYIP:10000/"  | tee -a log-install.txt
-echo "Timezone : Asia/Jakarta (GMT +7)"  | tee -a log-install.txt
+echo "Timezone : Asia/Thailand (GMT +7)"  | tee -a log-install.txt
 echo "IPv6     : [ปิด]"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "Original Script by GM, GM & CHOKE"  | tee -a log-install.txt
