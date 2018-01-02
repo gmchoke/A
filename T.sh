@@ -8,12 +8,8 @@ install sudo
 wget -O /etc/apt/sources.list "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/sources.list.debian8"
 wget "https://raw.githubusercontent.com/gmchoke/D/master/dotdeb.gpg"
 wget "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/jcameron-key.asc"
-cat dotdeb.gpg
-| apt-key add -;
-rm dotdeb.gpg 
-cat jcameron-key.asc 
-| apt-key add -;
-rm jcameron-key.asc 
+cat dotdeb.gpg| apt-key add -;rm dotdeb.gpg 
+cat jcameron-key.asc | apt-key add -;rm jcameron-key.asc 
 # update
 apt-get update 
 # install webserver 
