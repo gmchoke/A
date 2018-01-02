@@ -5,7 +5,7 @@ install ufw
 apt-get -y 
 install sudo
 # set repo 
-wget -O /etc/apt/sources.list "https://raw.githubusercontent.com/gmchoke/D/master/sources.list.debian8"
+wget -O /etc/apt/sources.list "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/sources.list.debian8"
 wget "https://raw.githubusercontent.com/gmchoke/D/master/dotdeb.gpg"
 wget "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/jcameron-key.asc"
 cat dotdeb.gpg| apt-key add -;rm dotdeb.gpg 
