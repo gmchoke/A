@@ -19,8 +19,7 @@ install nginx
 apt-get -y 
 install nano iptables dnsutils openvpn screen whois ngrep unzip unrar 
 # install neofetch echo "deb http://dl.bintray.com/dawidd6/neofetch jessie main" 
-| sudo tee -a /etc/apt/sources.list curl -L 
-"https://bintray.com/user/downloadSubjectPublicKey?username=bintray"
+| sudo tee -a /etc/apt/sources.list curl -L "https://bintray.com/user/downloadSubjectPublicKey?username=bintray"
 -o Release-neofetch.key&&sudo apt-key add Release-neofetch.key&&rm Release-neofetch.key 
 apt-get update
 apt-get install neofetch 
