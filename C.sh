@@ -1,4 +1,9 @@
-go to root cd 
+#!/bin/bash 
+# # Original script by fornesia, rzengineer and fawzya 
+# Mod by kguza wullop onuamit
+# ==================================================
+# go to root
+cd 
 # Install Command 
 apt-get -y 
 install ufw 
@@ -24,4 +29,5 @@ install nano iptables dnsutils openvpn screen whois ngrep unzip unrar
 -o Release-neofetch.key&&sudo apt-key add Release-neofetch.key&&rm Release-neofetch.key 
 apt-get update
 apt-get install neofetch 
-echo "clear" >> .bashrc echo 'echo -e " 
+echo "clear" >> .bashrc echo 
+'echo -e " 
