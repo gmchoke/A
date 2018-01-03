@@ -38,7 +38,7 @@ echo 'echo -e ""' >> .bashrc
 cd
 rm /etc/nginx/sites-enabled/default
 rm /etc/nginx/sites-available/default
-wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/gmchoke/A/master/nginx.conf"
+wget -O /etc/nginx/nginx.conf "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/nginx.conf"
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Bustami Arifin</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf  "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/vps.conf"
