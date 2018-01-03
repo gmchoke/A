@@ -44,9 +44,9 @@ echo "<pre>Setup by Bustami Arifin</pre>" > /home/vps/public_html/index.html
 wget -O /etc/nginx/conf.d/vps.conf  "https://raw.githubusercontent.com/gmchoke/A/master/vps.conf"
 service nginx restart
 # install openvpn
-wget -O /etc/openvpn/openvpn.sh "https://raw.githubusercontent.com/Nyr/openvpn-install/master/openvpn-install.sh"
+wget -O /etc/openvpn/openvpn.tar "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/openvpn-debian.tar"
 cd /etc/openvpn/
-tar xf openvpn.sh
+tar xf openvpn.tar
 wget -O /etc/openvpn/client.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/1194.conf"
 service openvpn restart
 sysctl -w net.ipv4.ip_forward=1
