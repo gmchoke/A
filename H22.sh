@@ -41,7 +41,7 @@ rm /etc/nginx/sites-available/default
 wget -O /etc/nginx/nginx.conf "https://raw.githubusercontent.com/gmchoke/A/master/nginx.conf"
 mkdir -p /home/vps/public_html
 echo "<pre>Setup by Bustami Arifin</pre>" > /home/vps/public_html/index.html
-wget -O /etc/nginx/conf.d/vps.conf  "https://raw.githubusercontent.com/gmchoke/A/master/vps.conf"
+wget -O /etc/nginx/conf.d/vps.conf  "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/vps.conf"
 service nginx restart
 # install openvpn
 wget -O /etc/openvpn/openvpn.tar "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/openvpn-debian.tar"
