@@ -1,6 +1,6 @@
 
 <?php
-$file = 'True-Dtac.ovpn';
+$file = 'client.ovpn';
 
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
