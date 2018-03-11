@@ -46,8 +46,7 @@ sed -i s/xxxxxxxxx/$MYIP/g /etc/squid3/squid.conf;
 service squid3 restart
 
 # install webmin
-cd
-#wget -O webmin-current.deb "https://docs.google.com/uc?export=download&id=1R6V8edVQtIeHYdvZB2EH0sGCLRh2sepm"
+#wget -O webmin-current.deb "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/webmin-current.deb"
 #dpkg -i --force-all webmin-current.deb;
 #apt-get -y -f install;
 #rm /root/webmin-current.deb
@@ -67,7 +66,7 @@ service webmin restart
 # Web Based Interface for Monitoring Network apache2 php5 php5-gd
 sudo apt-get install vnstat
 sudo apt-get install apache2 php5 php5-gd
-wget -O vnstat_php_frontend-1.5.1.tar.gz "https://docs.google.com/uc?export=download&id=1VxkpjE75i3K6ku2AUate1Q-YEndNhzFR"
+wget -O vnstat_php_frontend-1.5.1.tar.gz "http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz"
 #wget http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz
 tar xzf vnstat_php_frontend-1.5.1.tar.gz
 mv vnstat_php_frontend-1.5.1 /var/www/html/vnstat
