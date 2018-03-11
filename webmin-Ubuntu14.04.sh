@@ -84,7 +84,7 @@ cd
 wget -O True-Dtac.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/True-Dtac.ovpn"
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 sed -i s/xxxxxxxx/$MYIP/g True-Dtac.ovpn;
-mv client.ovpn /var/www/html/vnstat/
+mv True-Dtac.ovpn /var/www/html/vnstat/
 wget -O /var/www/html/vnstat/client.php "https://raw.githubusercontent.com/gmchoke/A/master/client.php"
 sed -i s/client.zip/client.php/g /var/www/html/vnstat/index.php;
 
