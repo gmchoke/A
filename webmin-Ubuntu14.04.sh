@@ -81,10 +81,10 @@ wget -O /etc/apache2/sites-enabled/000-default.conf "https://raw.githubuserconte
 sed -i s/85/80/g /etc/apache2/sites-enabled/000-default.conf;
 sed -i s/85/10000/g /var/www/html/vnstat/index.php;
 cd
-wget -O True-Dtac.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/True-Dtac.ovpn"
+wget -O client.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/client.ovpn"
 MYIP=$(wget -qO- ipv4.icanhazip.com);
-sed -i s/xxxxxxxx/$MYIP/g True-Dtac.ovpn;
-mv True-Dtac.ovpn /var/www/html/vnstat/
+sed -i s/xxxxxxxx/$MYIP/g client.ovpn;
+mv client.ovpn /var/www/html/vnstat/
 wget -O /var/www/html/vnstat/client.php "https://raw.githubusercontent.com/gmchoke/A/master/client.php"
 sed -i s/client.zip/client.php/g /var/www/html/vnstat/index.php;
 
@@ -100,8 +100,8 @@ echo -e "\033[01;31mInstall on 'Ubuntu 14.04' Only \033[0m"
 echo -e "\033[01;34m-----------------------------\033[0m"
 echo "FaceBook Name : Palladium Actinium"
 echo "FaceBook Url : https://www.facebook.com/100003964048764"
-echo "Email : c3au@admin.in.th"
-echo "TimeZone :  Bangkok"
+echo "Email : niopn56@gmail.com"
+echo "TimeZone :  Nakhonsawan "
 echo "Traffic  :  http://$MYIP/"
 echo "WebMin   :  http://$MYIP:10000/"
 echo -e "\033[01;34m-----------------------------\033[0m"
