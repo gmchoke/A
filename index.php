@@ -191,7 +191,7 @@ background: #00BFFF;
 width:90%;
 padding:12px 20px 12px 10px;
 border:none;
-color:#929999;                       
+color:#000000;                       
 box-shadow:inset 0px 1px 5px #FFFFFF;
 font-size:1.0em;
 -webkit-transition:0.5s ease;
@@ -294,7 +294,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
-      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#D02090">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#DAA520">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>
