@@ -178,7 +178,7 @@ body {background:#2f2f2f; font-family:Verdana; font-size:16px;}
 #main td.label_odd {color: #fff; background:#474747;}
 #main td.label_even {color: #fff; background:#242424;}
 #main th.label {color: #fff; padding:2px 0; border-bottom:1px solid #fff;}
-#main caption {padding: 3px 0 4px 0; color:#08BB08; text-transform:uppercase;}
+#main caption {padding: 3px 0 4px 0; color:#FF0000; text-transform:uppercase;}
 
 <!--
 .style1 {color: #FFFFFF}
@@ -215,7 +215,6 @@ transition:0.5s ease;
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=s" method="post" name="form2" id="form2">
             <div align="right">
               <input type="submit" name="Submit" value="โดยรวม" />
-	<font color="#D02090">
             </div>
         </form></td>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=h" method="post" name="form3" id="form3">
@@ -294,7 +293,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
-      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#DAA520">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>
