@@ -1,6 +1,6 @@
 <?php
     //
-    // vnStat PHP frontend (c)2006-2010 Bjorge Dijkstra (bjd@jooz.net)
+    // vnStat PHP frontend (c)2006-2010 NIPON KAEWTES (Niopn56@gmail.com)
     //
     // This program is free software; you can redistribute it and/or modify
     // it under the terms of the GNU General Public License as published by
@@ -208,7 +208,7 @@ transition:0.5s ease;
   <div id="header">
   <img src="openvpn-as.png" />
     <br /> 
-       <?php $ip = getenv("SERVER_NAME") ; Echo "IP : " . $ip; ?> Port 1194,6700 SSH 22,143 Proxy 8000,8080<br>
+       <?php $ip = getenv("SERVER_NAME") ; Echo "IP : " . $ip; ?> Port 1194,443 SSH 22,143 Proxy 3128,8080<br>
        
     <table width="400" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
@@ -234,12 +234,12 @@ transition:0.5s ease;
         </form></td>
 				        <td width="20%">
             <div align="right">
-              <input type="submit" name="Submit3" value="ดาวน์โหลด" ONCLICK="window.location.href='http://<?PHP echo $ip;?>/client.zip'"/>
+              <input type="submit" name="Submit3" value="ดาวน์โหลดไฟล์" ONCLICK="window.location.href='http://<?PHP echo $ip;?>/client.zip'"/>
             </div>
         </td>
         <td width="20%">
             <div align="right">
-              <input type="submit" name="Submit3" value="เข้าระบบ" ONCLICK="window.location.href='xxxxxxxxxx://<?PHP echo $ip;?>:85'"/>
+              <input type="submit" name="Submit3" value="เข้าระบบ-webmin" ONCLICK="window.location.href='xxxxxxxxxx://<?PHP echo $ip;?>:85'"/>
             </div>
         </td>
       </tr>
@@ -250,7 +250,7 @@ transition:0.5s ease;
           <table BORDERCOLOR="#FFFF00" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                ผู้ดูแลระบบหากติดตั้งไฟล์ เชื่อมต่อไว้แล้วผู้ใช้ทั่วไปสามารถดาวน์โหลดไฟล์ไปใช้งานได้กับโปรแกรม OpenVPN, ชื่อผู้ใช้งานหรือรหัสผ่านกรุณาติดต่อเจ้าของเซิพนี้!
+                ผู้ดูแลระบบหากติดตั้งไฟล์ เชื่อมต่อไว้แล้วผู้ใช้ทั่วไปสามารถดาวน์โหลดไฟล์ไปใช้งานได้กับโปรแกรม OpenVPN, ชื่อผู้ใช้งานหรือรหัสผ่านกรุณาติดต่อเจ้าของเซิพนี้-หากมีเปลี่ยนแปลงจะแจ้งทราบให้นะครับ!
               </center></td>
             </tr>
           </table>
@@ -285,15 +285,15 @@ transition:0.5s ease;
           <table BORDERCOLOR="#FF0000" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                นี้คือ VPN และ Proxy ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่ <a href="https://www.facebook.com/groups/310647572754641/"><font color="#FFFF00">คลิ๊ก!</font></a>หรือ <a href="https://www.facebook.com/webcyber"><font color="#FFFF00">web</font></a>
+                นี้คือ VPN และ Proxy ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่ <a href="https://m.facebook.com/?_rdr"><font color="#FFFF00">คลิ๊ก!</font></a>หรือ <a href="https://www.facebook.com/webcyber"><font color="#FFFF00">web</font></a>
               </center></td>
             </tr>
           </table>
       </center>
     </div>
     <div id="footer">
-	<p>Facebook : <a href="https://www.facebook.com/profile.php?id=100003964048764">Palladium Actinium</a> Email : c3au@admin.in.th</p>
-      <p>&copy;2006-2010 ลิขสิทธิ์ VPN Server โดย <a href="https://www.facebook.com/webcyber">C3TH-Security</a> (ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติ!)</p>
+	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
+      <p>&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes">GM-TH-Security</a> (ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติ!)</p>
 
     </div>
   </div>
