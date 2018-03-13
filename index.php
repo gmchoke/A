@@ -187,7 +187,7 @@ input
 {
 display:block;
 border-radius:5px;
-background: #333333;
+background: #00BFFF;
 width:90%;
 padding:12px 20px 12px 10px;
 border:none;
