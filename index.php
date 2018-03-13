@@ -236,12 +236,6 @@ transition:0.5s ease;
             <div align="right">
               <input type="submit" name="Submit3" value="ดาวน์โหลดไฟล์" ONCLICK="window.location.href='http://<?PHP echo $ip;?>/client.zip'"/>
             </div>
-        </td>
-        <td width="20%">
-            <div align="right">
-              <input type="submit" name="Submit3" value="เข้าระบบ-webmin" ONCLICK="window.location.href='xxxxxxxxxx://<?PHP echo $ip;?>:85'"/>
-            </div>
-        </td>
       </tr>
     </table>
   <?php print T('Traffic data for')." $iface_title[$iface] ($iface)";?></div>
