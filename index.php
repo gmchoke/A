@@ -285,7 +285,7 @@ transition:0.5s ease;
           <table BORDERCOLOR="#FF0000" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                นี้คือ VPN และ Proxy ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่ <a href="https://m.facebook.com/?_rdr"><font color="#FFFF00">คลิ๊ก!</font></a>หรือ <a href="https://www.facebook.com/webcyber"><font color="#FFFF00">web</font></a>
+                นี้คือ VPN และ Proxy ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่ <a href="https://m.facebook.com/?_rdr"><font color="#FFFF00">คลิ๊ก!</font></a>หรือ <a href="https://fast.com"><font color="#FFFF00">Test Speed</font></a>
               </center></td>
             </tr>
           </table>
