@@ -215,6 +215,7 @@ transition:0.5s ease;
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=s" method="post" name="form2" id="form2">
             <div align="right">
               <input type="submit" name="Submit" value="โดยรวม" />
+	<font color="#D02090">
             </div>
         </form></td>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=h" method="post" name="form3" id="form3">
@@ -229,7 +230,7 @@ transition:0.5s ease;
         </form></td>
 		        <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=m" method="post" name="form4" id="form4">
             <div align="right">
-              <input type="submit" name="Submit3" value="<font color="#66FF33">เดือน" />
+              <input type="submit" name="Submit3" value="เดือน" />
             </div>
         </form></td>
 				        <td width="20%">
@@ -250,7 +251,7 @@ transition:0.5s ease;
           <table BORDERCOLOR="#99FF00" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                ผู้ดูแลระบบหากติดตั้งไฟล์ เชื่อมต่อไว้แล้วผู้ใช้ทั่วไปสามารถดาวน์โหลดไฟล์ไปใช้งานได้กับโปรแกรม OpenVPN, ชื่อผู้ใช้งานหรือรหัสผ่านกรุณาติดต่อเจ้าของเซิพนี้-หากมีเปลี่ยนแปลงจะแจ้งทราบให้นะครับ!
+                <font color="#FF0033">ผู้ดูแลระบบหากติดตั้งไฟล์ เชื่อมต่อไว้แล้วผู้ใช้ทั่วไปสามารถดาวน์โหลดไฟล์ไปใช้งานได้กับโปรแกรม OpenVPN, ชื่อผู้ใช้งานหรือรหัสผ่านกรุณาติดต่อเจ้าของเซิพนี้-หากมีเปลี่ยนแปลงจะแจ้งทราบให้นะครับ!
               </center></td>
             </tr>
           </table>
@@ -285,7 +286,7 @@ transition:0.5s ease;
           <table BORDERCOLOR="#33FFFF" width="600" border="1" cellspacing="0" cellpadding="0">
             <tr>
               <td><center>
-                นี้คือระบบ VPN ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่    เบอร์โทรศพท์;0940749370 <a href="https://m.facebook.com/?_rdr"><font color="#FF0033">คลิ๊ก!</font></a>มีเทสความเร็ว <a href="https://fast.com"><font color="#FFFF0000">Test Speed</font></a>
+                <font color="#D02090">นี้คือระบบ VPN ที่รันบน VPS 100% ด้วยระบบจัดการที่ทันสมัยรองรับการเชื่อมต่อทุกโปรแกรมบนอุปรกรณ์ มือถือและคอมพิวเตอร์ พร้อมด้วยระบบตั้งค่าความปลอดภัย ติดตั้งระบบได้ที่    เบอร์โทรศพท์;0940749370 <a href="https://m.facebook.com/?_rdr"><font color="#FF0033">คลิ๊ก!</font></a>มีเทสความเร็ว <a href="https://fast.com"><font color="#FFFF0000">Test Speed</font></a>
               </center></td>
             </tr>
           </table>
@@ -293,7 +294,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
-      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#99FF33">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#D02090">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>
