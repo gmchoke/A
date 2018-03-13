@@ -97,11 +97,11 @@ echo "Script WebMin Auto Install"
 echo -e "\033[01;34m-----------------------------\033[0m"
 echo -e "\033[01;31mInstall on 'Ubuntu 14.04' Only \033[0m"
 echo -e "\033[01;34m-----------------------------\033[0m"
-echo "FaceBook Name : Palladium Actinium"
-echo "FaceBook Url : https://www.facebook.com/100003964048764"
+echo "FaceBook Name : Nipon Kaewtes "
+echo "FaceBook Url : https://m.facebook.com/?_rdr"
 echo "Email : niopn56@gmail.com"
 echo "TimeZone :  Nakhonsawan "
-echo "Traffic  :  http://$MYIP/"
+echo "กราฟฟิคแสดงข้อมูล  :  http://$MYIP/"
 echo "WebMin   :  http://$MYIP:10000/"
 echo -e "\033[01;34m-----------------------------\033[0m"
 echo "root you password login web edit..."
@@ -112,5 +112,5 @@ sudo passwd root
 #เข้าไปที่หัวข้อ Server >> SSH Server >> Authentication
 #ที่หัวข้อ Allow authentication by password? เลือกเป็น Yes กด Save และ Apply Changes
 #SSH Port 22,143  Proxy Port 8080,3128
-sudo passwd root
+
 sudo rm -rf *
