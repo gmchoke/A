@@ -214,7 +214,7 @@ transition:0.5s ease;
       <tr>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=s" method="post" name="form2" id="form2">
             <div align="right">
-              <input type="submit" name="Submit" value="โดยรวม" />
+              <input type="submit" name="Submit" value=<font color="#FFFF00">"โดยรวม" />
             </div>
         </form></td>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=h" method="post" name="form3" id="form3">
