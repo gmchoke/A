@@ -159,11 +159,11 @@
   <style type="text/css">
 <!--
 -->
-body {background:#2f2f2f; font-family:Verdana; font-size:16px;}
+body {background:#B22222; font-family:Verdana; font-size:16px;}
 #wrap { background:#242424; padding:10px; margin:0 auto; border:1px solid #474747;}
 #sidebar {width: 160px; float: left; padding: 3px 4px; color: #fff; background-color: #2F2F2F; border:1px solid #474747; -moz-border-radius:8px;}
 #sidebar ul.iface {}
-#sidebar li.iface {list-style-type:none; color:#08BB08; text-transform:uppercase; padding-bottom:10px; text-align:center;}
+#sidebar li.iface {list-style-type:none; color:#FF0000; text-transform:uppercase; padding-bottom:10px; text-align:center;}
 #sidebar a{color:#aaa;}
 #sidebar ul.page {}
 #sidebar li.page {list-style-type:none; text-transform:none;}
