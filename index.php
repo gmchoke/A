@@ -159,7 +159,7 @@
   <style type="text/css">
 <!--
 -->
-body {background:#696969; font-family:Verdana; font-size:16px;}
+body {background:#242424; font-family:Verdana; font-size:16px;}
 #wrap { background:#242424; padding:10px; margin:0 auto; border:1px solid #474747;}
 #sidebar {width: 160px; float: left; padding: 3px 4px; color: #fff; background-color: #2F2F2F; border:1px solid #474747; -moz-border-radius:8px;}
 #sidebar ul.iface {}
@@ -293,7 +293,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
-      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#ADFF2F">&copy;2017-2022 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#87CEFA">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>
