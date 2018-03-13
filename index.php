@@ -159,7 +159,7 @@
   <style type="text/css">
 <!--
 -->
-body {background:#B22222; font-family:Verdana; font-size:16px;}
+body {background:#696969; font-family:Verdana; font-size:16px;}
 #wrap { background:#242424; padding:10px; margin:0 auto; border:1px solid #474747;}
 #sidebar {width: 160px; float: left; padding: 3px 4px; color: #fff; background-color: #2F2F2F; border:1px solid #474747; -moz-border-radius:8px;}
 #sidebar ul.iface {}
@@ -178,7 +178,7 @@ body {background:#B22222; font-family:Verdana; font-size:16px;}
 #main td.label_odd {color: #fff; background:#474747;}
 #main td.label_even {color: #fff; background:#242424;}
 #main th.label {color: #fff; padding:2px 0; border-bottom:1px solid #fff;}
-#main caption {padding: 3px 0 4px 0; color:#FF0000; text-transform:uppercase;}
+#main caption {padding: 3px 0 4px 0; color:#7CFC00; text-transform:uppercase;}
 
 <!--
 .style1 {color: #FFFFFF}
@@ -192,7 +192,7 @@ width:90%;
 padding:12px 20px 12px 10px;
 border:none;
 color:#000000;                       
-box-shadow:inset 0px 1px 5px #FFFFFF;
+box-shadow:inset 0px 1px 5px #00FF00;
 font-size:1.0em;
 -webkit-transition:0.5s ease;
 -moz-transition:0.5s ease;
@@ -208,7 +208,7 @@ transition:0.5s ease;
   <div id="header">
   <img src="openvpn-as.png" />
     <br /> 
-       <?php $ip = getenv("SERVER_NAME") ; Echo "IP : " . $ip; ?> Port 1194,443 SSH 22,143 Proxy 3128,8080<br>
+       <?php $ip = getenv("SERVER_NAME") ; Echo "IP : " . $ip; ?> <font color="#00FF00">Port 1194,443 SSH 22,143 Proxy 3128,8080<br>
        
     <table width="400" border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>
