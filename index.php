@@ -214,7 +214,7 @@ transition:0.5s ease;
       <tr>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=s" method="post" name="form2" id="form2">
             <div align="right">
-              <input type="submit" name="Submit" value=<font color="#FFFF00">"โดยรวม" />
+              <input type="submit" name="Submit" value="โดยรวม" />
             </div>
         </form></td>
         <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=h" method="post" name="form3" id="form3">
@@ -229,7 +229,7 @@ transition:0.5s ease;
         </form></td>
 		        <td width="20%"><form action="index.php?if=eth0&graph=large&style=dark&page=m" method="post" name="form4" id="form4">
             <div align="right">
-              <input type="submit" name="Submit3" value="รายเดือน" />
+              <input type="submit" name="Submit3" value="<font color="#66FF33">เดือน" />
             </div>
         </form></td>
 				        <td width="20%">
@@ -293,7 +293,7 @@ transition:0.5s ease;
     </div>
     <div id="footer">
 	<p>Facebook : <a href="https://m.facebook.com/?_rdr">Nipon Kaewtes</a> Email : niopn56@gmail.com</p>
-      <p>&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes">GM-TH-Security</a> (ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
+      <p><font color="#FFFF00">&copy;2006-2010 ลิขสิทธิ์ VPN-GM Server โดย <a href="Facebook: nipon kaewtes"><font color="#66FF33">GM-TH-Security</a><font color="#99FF33">(ห้ามแก้ไขหน้าระบบโดยไม่ได้รับอนุณาติไม่งั้นไม่รับผิดขอบนะครับ!)</p>
 
     </div>
   </div>
