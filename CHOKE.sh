@@ -98,13 +98,25 @@ MYIP=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*
 sed -i s/xxxxxxxxx/$MYIP/g /etc/squid3/squid.conf; 
 service squid3 restart 
 
-# install webmin 
-cd 
-wget -O webmin-current.deb "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/webmin-current.deb" 
-dpkg -i --force-all webmin-current.deb; 
-apt-get -y -f install; 
-rm /root/webmin-current.deb 
-service webmin restart 
+# install webmin
+cd
+#wget -O webmin-current.deb "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/webmin-current.deb"
+#dpkg -i --force-all webmin-current.deb;
+#apt-get -y -f install;
+#rm /root/webmin-current.deb
+			#sed -i s/port=10000/port=85/g /etc/webmin/miniserv.conf;
+sudo tee -a /etc/apt/sources.list << EOF
+deb http://download.webmin.com/download/repository sarge contrib
+deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib
+EOF
+cd /root
+wget http://www.webmin.com/jcameron-key.asc
+apt-key add jcameron-key.asc
+apt-get update
+apt-get install webmin
+sed -i s/ssl=1/ssl=0/g /etc/webmin/miniserv.conf;
+service webmin restart
+
 # Web Based Interface for Monitoring Network apache2 php5 php5-gd
 sudo apt-get install vnstat
 sudo apt-get install apache2 php5 php5-gd
@@ -122,7 +134,7 @@ wget -O /etc/apache2/sites-enabled/000-default.conf "https://raw.githubuserconte
 sed -i s/85/80/g /etc/apache2/sites-enabled/000-default.conf;
 sed -i s/85/10000/g /var/www/html/vnstat/index.php;
 cd
-wget -O True-Dtac.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/True-Dtac.ovpn"
+wget -O client.ovpn "https://raw.githubusercontent.com/gmchoke/A/master/True-Dtac.ovpn"
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 sed -i s/xxxxxxxx/$MYIP/g client.ovpn;
 mv client.ovpn /var/www/html/vnstat/
@@ -131,6 +143,7 @@ sed -i s/client.zip/client.php/g /var/www/html/vnstat/index.php;
 
 sudo service apache2 restart
 #nano /var/www/html/vnstat/config.php
+
 
 
 
