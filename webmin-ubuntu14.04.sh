@@ -66,10 +66,10 @@ service webmin restart
 # Web Based Interface for Monitoring Network apache2 php5 php5-gd
 sudo apt-get install vnstat
 sudo apt-get install apache2 php5 php5-gd
-wget -O vnstat_php_frontend-1.5.1.tar.gz "http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz"
-#wget http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz
-tar xzf vnstat_php_frontend-1.5.1.tar.gz
-mv vnstat_php_frontend-1.5.1 /var/www/html/vnstat
+wget -O EasyRSA-3.0.4.tgz "https://github.com/OpenVPN/easy-rsa/releases/download/v3.0.4/EasyRSA-3.0.4.tgz"
+#wget http://www.sqweek.com/sqweek/files/EasyRSA-3.0.4.tgz
+tar xzf EasyRSA-3.0.4.tgz
+mv EasyRSA-3.0.4.tgz /var/www/html/vnstat
 sed -i s/nl/th/g /var/www/html/vnstat/config.php;
 #sed -i s/80/85/g /etc/apache2/ports.conf;
 wget -O /var/www/html/vnstat/lang/th.php "https://raw.githubusercontent.com/gmchoke/A/master/th.php"
