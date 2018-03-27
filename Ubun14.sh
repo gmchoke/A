@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# go to root
 sudo apt-get update
 #apt-get install ca-certificates
 apt-get install zip
