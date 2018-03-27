@@ -112,5 +112,3 @@ sudo passwd root
 #เข้าไปที่หัวข้อ Server >> SSH Server >> Authentication
 #ที่หัวข้อ Allow authentication by password? เลือกเป็น Yes กด Save และ Apply Changes
 #SSH Port 22,143  Proxy Port 8080,3128
-
-sudo rm -rf *
