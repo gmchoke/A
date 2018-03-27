@@ -1,9 +1,3 @@
-﻿#!/bin/bash
-#
-# Original script by GM# Mod by GM NIPON
-# ==================================================
-# go to root
-cd
 sudo apt-get update
 #apt-get install ca-certificates
 apt-get install zip
