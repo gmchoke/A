@@ -1,5 +1,5 @@
 sudo apt-get update
-apt-get install ca-certificates
+#apt-get install ca-certificates
 apt-get install zip
 apt-get -y install openvpn
 
