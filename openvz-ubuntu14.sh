@@ -24,7 +24,7 @@ service openvpn restart
 apt-get -y install squid3
 cd
 cp /etc/squid3/squid.conf /etc/squid3/squid.conf.orig
-wget -O /etc/squid3/squid.conf "https://docs.google.com/uc?export=download&id=1ynLQwUiKvN5ztB-3n6TH-KdoiEBmSvEF"
+wget -O /etc/squid3/squid.conf "https://raw.githubusercontent.com/gmchoke/A/master/squid.conf"
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 sed -i s/xxxxxxxxx/$MYIP/g /etc/squid3/squid.conf;
 service squid3 restart
@@ -42,13 +42,13 @@ sed -i s/ssl=1/ssl=0/g /etc/webmin/miniserv.conf;
 service webmin restart
 sudo apt-get install vnstat
 sudo apt-get install apache2 php5 php5-gd
-wget -O vnstat_php_frontend-1.5.1.tar.gz "https://docs.google.com/uc?export=download&id=1VxkpjE75i3K6ku2AUate1Q-YEndNhzFR"
+wget -O vnstat_php_frontend-1.5.1.tar.gz "http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz"
 tar xzf vnstat_php_frontend-1.5.1.tar.gz
 cd
 rm /var/www/index.html
 cp -r  ./vnstat_php_frontend-1.5.1/* /var/www
 sed -i s/nl/th/g /var/www/config.php;
-wget -O /var/www/lang/th.php "https://docs.google.com/uc?export=download&id=1Tezcbh8WIcsr1RZW1LRR1tBqD953GACZ"
+wget -O /var/www/lang/th.php "https://raw.githubusercontent.com/gmchoke/A/master/th.php"
 wget -O /var/www/index.php "https://docs.google.com/uc?export=download&id=1bkK_IbQUrZblo7WQPbOav32mtQzFniuT"
 sed -i s/xxxxxxxxxx/http/g /var/www/index.php;
 sudo su
