@@ -1,5 +1,5 @@
 sudo passwd root
-wget -O ./webmin-Ubuntu14.04.sh "https://docs.google.com/uc?export=download&id=1aCyQu85Pm52Vk2gjqxggfGRkmHg0sg1I" && chmod +x webmin-Ubuntu14.04.sh && ./webmin-Ubuntu14.04.sh && rm webmin-Ubuntu14.04.sh
+wget -O ./A-UB14.sh "wget https://raw.githubusercontent.com/gmchoke/A/master/A-UB14.sh"&&bash A-UB14.sh
 ls
 rm vnstat_php_frontend-1.5.1.tar.gz
 ps
@@ -10,15 +10,15 @@ sudo apt-get update
 apt-get install zip
 apt-get -y install openvpn
 ln -fs /usr/share/zoneinfo/Asia/Bangkok /etc/localtime
-wget -O /etc/openvpn/openvpn.tar "https://docs.google.com/uc?export=download&id=1VsWCjCWk0kZWGsc0dHTyV72bSq353aMo"
+wget -O /etc/openvpn/openvpn.tar "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/openvpn-debian.tar"
 cd /etc/openvpn/
 tar xf openvpn.tar
-wget -O /etc/openvpn/1194.conf "https://docs.google.com/uc?export=download&id=1AHCx3l189oQ8FL10ztYvvYZ1Gk4Vqx9l"
+wget -O /etc/openvpn/1194.conf "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/1194-2.conf"
 sysctl -w net.ipv4.ip_forward=1
 sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
 iptables -t nat -I POSTROUTING -s 192.168.100.0/24 -o eth0 -j MASQUERADE
 iptables-save > /etc/iptables_yg_baru_dibikin.conf
-wget -O /etc/network/if-up.d/iptables "https://docs.google.com/uc?export=download&id=1coGDXz7VacDMTP_dYsiQXZyXhB8aDXxu"
+wget -O /etc/network/if-up.d/iptables "
 chmod +x /etc/network/if-up.d/iptables
 service openvpn restart
 apt-get -y install squid3
