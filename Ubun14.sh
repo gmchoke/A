@@ -70,7 +70,7 @@ mv vnstat_php_frontend-1.5.1.tar.gz /var/www/html/vnstat
 sed -i s/nl/th/g /var/www/html/vnstat/config.php;
 #sed -i s/80/85/g /etc/apache2/ports.conf;
 wget -O /var/www/html/vnstat/lang/th.php "https://raw.githubusercontent.com/gmchoke/A/master/th.php"
-wget -O /var/www/html/vnstat/index.php "https://raw.githubusercontent.com/gmchoke/A/master/index.php"
+wget -O /var/www/html/vnstat/index.php "https://raw.githubusercontent.com/gmchoke/GMCHOKE1/master/index.php"
 sed -i s/xxxxxxxxxx/http/g /var/www/html/vnstat/index.php;
 wget -O /etc/apache2/sites-enabled/000-default.conf "https://raw.githubusercontent.com/gmchoke/A/master/000-default.conf"
 sed -i s/85/80/g /etc/apache2/sites-enabled/000-default.conf;
