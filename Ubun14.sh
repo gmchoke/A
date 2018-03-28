@@ -28,6 +28,16 @@ chmod 777 /etc/openvpn/tmp
 /etc/init.d/openvpn restart
 #service openvpn status
 
+# install webserver 
+cd 
+rm /etc/nginx/sites-enabled/default 
+rm /etc/nginx/sites-available/default 
+wget -O /etc/nginx/nginx.conf "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/nginx.conf" 
+mkdir -p /home/vps/public_html 
+echo "" > /home/vps/public_html/index.html
+wget -O /etc/nginx/conf.d/vps.conf "https://scripkguza.000webhostapp.com/KGUZA-ALL-SCRIP/vps.conf" 
+service nginx restart 
+
 # download script
 cd /usr/bin
 wget -O usernew "https://raw.githubusercontent.com/gmchoke/A/master/usernew.sh"
